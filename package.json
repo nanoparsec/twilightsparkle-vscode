@@ -1,0 +1,33 @@
+{
+  "name": "twilightsparkle",
+  "displayName": "TwilightSparkle",
+  "description": "A theme for VS Code inspired by Twilightsparkle from My little pony",
+  "version": "0.1.0",
+  "publisher": "nanoparsec",
+  "author": {
+    "name": "nanoparsec"
+  },
+
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "twilightsparkle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/twilightsparkle-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanoparsec/twilightsparkle-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nanoparsec/twilightsparkle-vscode/issues"
+  }
+}
